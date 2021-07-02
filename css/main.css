@@ -32,7 +32,7 @@ main, .content{
 .redes-sociais ul li{
     display: inline-block;
     list-style: none;
-    margin-right: 14px;
+    margin-left: 15px;
 }
 
 .redes-sociais{
@@ -68,36 +68,36 @@ ul{
     border-bottom: 3px solid #efefef;
 }
 
+/* ----------------------------- */
 .menu ul li{
     display: inline-block;
     color: #8b8b8b;
     margin-right: 16px;
     height: 50px;
 }
-
-.menu ul li:hover{
+.menu ul li:hover{ /* efeito ao passar o mouse por cima do item */
     border-bottom: 3px solid #00bac6;
 }
 
-.menu ul li a{
+/* ----------------------------- */
+.menu ul li a{/* estilização da palavra */
     color: #8b8b8b;
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
 }
-
-.menu ul li a:hover{
+.menu ul li a:hover{/* efeito ao passar o mouse por cima da palavra */
     color: #00bac6;
 }
 
-.busca{
+/* ----------------------------- */
+.busca{/* posicionamento do input de busca */
     width: 20%;
     float: right;
     padding: 10px;
     text-align: center;
 }
-
-.busca input{
+.busca input{/* input + imagem dentro do input */
     width: 160px;
     height: 28px;
     padding-left: 10px;

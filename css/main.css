@@ -43,7 +43,7 @@ main, .content{
 /* ------------------ */
 .coluna-100{
     width: 100%;
-    float:left;
+    float: left;
     position: relative;
 }
 
@@ -52,6 +52,10 @@ main, .content{
     width: 980px;
     margin: 0 auto;
     padding: 16px;
+}
+
+.banner{
+    width: 100%;
 }
 
 .menu{

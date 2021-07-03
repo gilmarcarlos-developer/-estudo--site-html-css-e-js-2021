@@ -24,7 +24,7 @@ main, .content{
 }
 
 .logo{
-    padding: 16px;
+    padding: 10px;
     float: left;
     width: 70%;
 }
@@ -41,9 +41,9 @@ main, .content{
 }
 
 /* ------------------ */
-.sub-menu{
+.coluna-100{
     width: 100%;
-    float: left;
+    float:left;
     position: relative;
 }
 
@@ -105,4 +105,30 @@ ul{
     background-repeat: no-repeat;
     background-position: 96%;
     border: 1px solid #d6d6d6;
+}
+
+/* ----------------------------- */
+button.slick-prev{
+    width: 27px;
+    height: 50px;
+    font-size: 0px;
+    border: none;
+    background-color: transparent;
+    background-image: url('../img/arrow-left.png');
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 14%;
+}
+button.slick-next{
+    width: 27px;
+    height: 50px;
+    font-size: 0px;
+    border: none;
+    background-color: transparent;
+    background-image: url('../img/arrow-right.png');
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    right: 14%;
 }

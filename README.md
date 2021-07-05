@@ -7,3 +7,7 @@ Primeira versão:
 Segunda versão:
 
 <img src="/img/segunda-versao.png" alt="Segunda versão"/>
+
+Atualização: 
+
+<img src="/img/atualizacao1.png" alt="Atualização 1"/>

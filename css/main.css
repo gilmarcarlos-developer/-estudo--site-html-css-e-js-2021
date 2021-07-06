@@ -11,7 +11,7 @@ body{
     height: 60px;
 }
 
-main{
+main, .content{
     width: 980px;
     position: relative;
     margin: 0 auto;
@@ -166,4 +166,20 @@ button.slick-next{
 
 li.slick-active button{
     background: #00bac6;
+}
+
+/* ------------------ */
+.texto-destaque{
+    text-align: center;
+}
+.texto-destaque h1{
+    text-transform: uppercase;
+    color: #818181;
+}
+.texto-destaque strong{
+    color: #646464;
+}
+.texto-destaque p{
+    font-size: 16px;
+    color: #9a9a9a;
 }

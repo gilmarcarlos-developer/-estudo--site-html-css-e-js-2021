@@ -175,11 +175,31 @@ li.slick-active button{
 .texto-destaque h1{
     text-transform: uppercase;
     color: #818181;
+    font-size: 30px;
+    margin-top: 1em;
 }
 .texto-destaque strong{
-    color: #646464;
+    color: #4e4a4a;
 }
 .texto-destaque p{
-    font-size: 16px;
     color: #9a9a9a;
+}
+
+/* ------------------ */
+
+.coluna-3{
+    width: 32%;
+    float: left;
+    position: relative;
+    padding-left: 10px;
+    margin-top: 3em;
+}
+
+.imagem-meio{
+    margin-top: 5em;
+}
+
+h2{
+    font-weight: normal!important;
+    color: #818181;
 }

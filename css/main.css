@@ -186,7 +186,6 @@ li.slick-active button{
 }
 
 /* ------------------ */
-
 .coluna-3{
     width: 32%;
     float: left;
@@ -202,4 +201,61 @@ li.slick-active button{
 h2{
     font-weight: normal!important;
     color: #818181;
+}
+
+/* ------------------ */
+.footer{
+    background-image: url('../img/footer.png');
+    color: #ffffff;
+    margin-top: 2em;
+    text-align: justify;
+}
+.coluna-2-1{
+    width: 50%;
+    float: left;
+    position: relative;
+    margin-top: 1em;
+    padding-left: 15px;
+}
+.coluna-2-2{
+    width: 35%;
+    float: left;
+    position: relative;
+    margin-top: 1em;
+    padding-left: 70px;
+}
+.footer h3{
+    /*text-align: left;*/
+    font-weight: normal!important;
+}
+
+.local:before, .email:before, .telefone:before {
+    content: '';
+    width: 15px;
+    height: 16px;
+    display: inline-block;
+    padding-left: 10px;
+}
+.local:before {
+    background-image: url('../img/local.png');
+    background-repeat: no-repeat;
+}
+.email:before {
+    background-image: url('../img/email.png');
+    background-repeat: no-repeat;
+}
+.telefone:before {
+    background-image: url('../img/telefone.png');
+    background-repeat: no-repeat;
+}
+
+.footer-2{
+    background-image: url('../img/footer2.png');
+    color: #c1c1c1;
+    height: 60px;
+}
+.footer-2 p{
+    width: 90%;
+    padding-left: 20px;
+    padding-top: 7px;
 }
